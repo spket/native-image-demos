@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gtk"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/org.eclipse.gef"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/jface.standalone"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/org.eclipse.swt"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Skija"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="res"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
