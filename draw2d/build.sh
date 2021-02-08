@@ -20,7 +20,7 @@ $GEF_HOME/plugins/org.eclipse.zest.core_1.5.300.201606061308.jar:\
 $GEF_HOME/plugins/org.eclipse.zest.layouts_1.1.300.201606061308.jar
 
 if [ "$1" = "-native" ]; then
-	$GRAALVM_HOME/bin/native-image -cp bin:res:$CP com.spket.demo.draw2d.Draw2DApp draw2dapp
+	$GRAALVM_HOME/bin/native-image -cp bin:res:$CP com.spket.demo.draw2d.Draw2DApp bin/draw2dapp
 else
 	$GRAALVM_HOME/bin/javac -cp res:$CP -d bin -sourcepath src:gtk src/com/spket/demo/draw2d/Draw2DApp.java
 fi

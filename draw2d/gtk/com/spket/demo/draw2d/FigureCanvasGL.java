@@ -279,6 +279,7 @@ public class FigureCanvasGL extends FigureCanvas {
 	}
 	
 	private void releaseResource() {
+		releaseSurface();
 		if (context != null) {
 			context.close();
 			context = null;
